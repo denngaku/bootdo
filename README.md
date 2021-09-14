@@ -17,6 +17,7 @@ ApacheShiro为权限授权层，Ehcahe对常用数据进行缓存。
         客户端验证：JQuery Validation
         富文本在线编辑：summernote
         数据表格：books
+        
 3.3）平台
         应用服务器：SpringBoot内置
         数据库支持：目前仅提供MySql数据库的支持，但不限于数据库
