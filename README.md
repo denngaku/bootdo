@@ -4,7 +4,7 @@ ApacheShiro为权限授权层，Ehcahe对常用数据进行缓存。
 2.本项目为了体验效果，集成了web后台系统页面。
 
 3.技术选型
-3.1）后端
+   3.1）后端
         核心框架：Spring Boot
         安全框架：Apache Shiro
         持久层框架：MyBatis
@@ -12,13 +12,12 @@ ApacheShiro为权限授权层，Ehcahe对常用数据进行缓存。
         缓存框架：Ehcache 、Redis
         日志管理：SLF4J
         工具类：Apache Commons、Jackson
-3.2）前端
+   3.2）前端
         JS框架：jQuery
         客户端验证：JQuery Validation
         富文本在线编辑：summernote
-        数据表格：books
-        
-3.3）平台
+        数据表格：books        
+   3.3）平台
         应用服务器：SpringBoot内置
         数据库支持：目前仅提供MySql数据库的支持，但不限于数据库
         开发环境：Java、Idea、Maven、Git
@@ -32,6 +31,6 @@ ApacheShiro为权限授权层，Ehcahe对常用数据进行缓存。
 强制访问：系统对所有管理端链接都进行用户身份权限验证，防止用户直接填写url进行访问。
 
 5.项目部署
-5.1）创建数据库bootdo，执行数据库脚本bootdo.sql文件
-5.2）启动redis服务
-5.3）默认登录账户密码：admin/111111
+   5.1）创建数据库bootdo，执行数据库脚本bootdo.sql文件
+   5.2）启动redis服务
+   5.3）默认登录账户密码：admin/111111
